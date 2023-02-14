@@ -6,6 +6,11 @@ body {
   margin: 0;
   font-family: "Georgia (serif)";
 }
+@media screen and (max-width: 600px){
+  body{
+    width: 100;
+  }
+}
 
 /*navbar*/
 .topnav{
@@ -99,8 +104,8 @@ body {
   position: absolute;
   color: rgb(255, 255, 255) ;
   font-size: 35px;
-  top: 450px;
-  left: 220px;
+  top: -200px;
+  left: 20px;
   animation: animate 1.5s linear infinite;
 }
 /*home-page end*/
@@ -117,10 +122,9 @@ body {
     height: 60vh;
   }
   .quote p{
-    position: relative;
-    top: -250px;
-    left: 20px;
+    display: none;
   }
+  
 }
 
 /*footer-start*/
@@ -140,7 +144,7 @@ footer{
   justify-content: space-between;
 }
 .contact-container{
-  margin-left: 25px;
+  margin-right: 25px;
 }
 .contacts p{
   color: #d3d3d3;
@@ -173,13 +177,14 @@ footer{
 
 /*footer-right-start*/
 .right-contact {
-  margin-right: 25px;
+  margin-left: 35px;
 
 }
 .right-contact p{
   color: #d3d3d3;
   font-size: 35px;
   margin-bottom: 20px;
+  margin-left:20px ;
 }
 #right-icon{
   color: #d3d3d3;
@@ -210,8 +215,9 @@ footer{
     display: block;
   }
   .contact-container{
-    position: absolute;
+  
     bottom: -150px;
+    margin-left: 20px;
   }
  
   
