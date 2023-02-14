@@ -210,6 +210,7 @@ footer{
 @media screen and (max-width: 600px){
   footer{
     height: 60vh;
+    display: block;
   }
   .container{
     display: block;
