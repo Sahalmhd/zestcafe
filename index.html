@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href='https://css.gg/facebook.css' rel='stylesheet'>
+<link href='https://css.gg/google.css' rel='stylesheet'>
+<link href='https://css.gg/twitter.css' rel='stylesheet'>
+<link href='https://css.gg/instagram.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+
+     <header> <!--nav bar start-->
+        <nav class="topnav">
+          <div class="responsive">
+           <div><a href="##" id="logo">zest-cafe</a></div>
+           <div class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          </div>
+         <div class="menu ">
+           <ul class="list">
+              <li><a href="##">Home</a></li>
+              <li><a href="##">About us</a></li>
+              <li><a href="##">Gallery</a></li>
+              <li><a href="##">Dining</a></li>
+             <li><a href="##">Special offers</a></li>
+              <li><a href="##">Contacts us</a></li>
+           </ul>
+         </div>
+       </nav>
+     </header><!--nav bar end-->
+    <div class="home-page">
+      <img src="family.jpg" alt="zeztcae" id="bgimg">
+      <div class="quote">
+        <p>Delicious foods<br>now in one touch</p>
+      </div>
+      
+    </div>
+    <footer>
+     <div class="container">
+        <div class="contact-container"><!--left-->
+          <div class="contacts">
+            <p>Follow us</p>
+            <p>Stay connected with our world</p>
+          </div>
+          <div class="icon">
+            <div><a href="##"><i class="gg-facebook"></i></a></div>
+            <div><a href="##"><i class="gg-google"></i></a></div>
+            <div><a href="##"><i class="gg-twitter"></i> </a></div>
+            <div><a href="##"><i class="gg-instagram"></i></a></div>
+         </div>
+        </div>
+
+        <div class="right-contact">
+          <p id="para">Contacts</p>
+         
+          <div class="right-icon-container">
+            <ul>
+              <li> <i class="fa fa-address-book" aria-hidden="true"id="right-icon"></i><a href="##">(+91)1029384756</a></li>
+              <li> <i class="fa fa-map-marker" aria-hidden="true"id="right-icon"></i>  <a href="##" id="location-icon">Calicut india</a></li>
+              <li><i class="fa fa-envelope" aria-hidden="true"id="right-icon"></i></i><a href="##">zest-cafe@gmail.com</a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script>
+    let toggle1=document.querySelector('.toggle')
+    let navbar=document.querySelector('.topnav')
+    toggle1.addEventListener('click',function(){
+      navbar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
