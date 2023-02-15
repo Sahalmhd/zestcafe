@@ -8,7 +8,7 @@ body {
 }
 @media screen and (max-width: 600px){
   body{
-    width: 100;
+    width: 100%;
   }
 }
 
@@ -211,6 +211,7 @@ footer{
   footer{
     height: 60vh;
     display: block;
+    Margin-top:-30px;
   }
   .container{
     display: block;
